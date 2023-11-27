@@ -12,7 +12,7 @@ module.exports = {
     rules: [
       {
         test: /\.(s[ac]|c)ss$/i,
-        use: ["style-loader", "logger-loader"],
+        use: ["style-loader"],
       },
       {
         test: /\.(js|jsx)$/,
@@ -45,13 +45,5 @@ module.exports = {
     host: "localhost",
     port: 3000,
     historyApiFallback: true, //缺少该配置，会出现上面的错误
-  },
-  resolveLoader: {
-    alias: {
-      "logger-loader": path.resolve(
-        __dirname,
-        "./custom-loader/logger-loader/index.js"
-      ),
-    },
-  },
+  }
 };
