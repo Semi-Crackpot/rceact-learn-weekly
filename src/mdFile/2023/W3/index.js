@@ -1,9 +1,9 @@
 import React from "react";
-import W3 from './W3.md';
+import MDIndex from './index.md';
 import ReactMarkdown from 'react-markdown';
 
-const MdFile2023W3 = () => {
-  return <ReactMarkdown children={W3}/>
+const MdFile2023W4 = () => {
+  return <ReactMarkdown children={MDIndex}/>
 }
 
-export default MdFile2023W3
+export default MdFile2023W4

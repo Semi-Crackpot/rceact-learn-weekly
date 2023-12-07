@@ -1,9 +1,9 @@
 import React from "react";
-import W2 from './W2.md';
+import MDIndex from './index.md';
 import ReactMarkdown from 'react-markdown';
 
 const MdFile2023W2 = () => {
-  return <ReactMarkdown children={W2}/>
+  return <ReactMarkdown children={MDIndex}/>
 }
 
 export default MdFile2023W2
